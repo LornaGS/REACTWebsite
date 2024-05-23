@@ -3,33 +3,34 @@ import { Link } from 'react-router-dom';
 
 import { useState } from 'react'
 import Alerts from './Alerts'
+import '../css/pages.css';
 
 const HomePage=()=>  {
   return (
-    <div className="home-page">
-
-
-
-      <h1>Bring your home to life</h1>
-      <p>Evaluate your living space with a touch of nature.</p>
-      <p>We offer a range of easy-care houseplants.</p>
-
-      <div className="image">
     
-            <img src={plants} alt="" width="150px" height="150px" />
-        </div>
 
 
-       <button className="Button" onClick={Alerts} >Browse Plants </button> 
-    </div>
+            <div className="grid-container">
+                <div className="item1">
+                    <h1>Bring your home to life</h1>
+                    <p>Evaluate your living space with a touch of nature.</p>
+                    <p>We offer a range of easy-care houseplants.</p>
 
-        // {itemsData.map((item) => (
-        //     <Card
-        //         name = {item.id}
-        //         price = {item.price}
-        //         imageUrl = {item.imageUrl}
-        //         />}
+                    <button className="button" onClick={Alerts} >Browse Plants </button> 
 
+                </div>
+
+                <div className="item2" >
+                        <img className="img" src={plants} alt="plant"  />
+                </div>
+                
+                    
+
+
+              
+                </div>
+
+      
 
   );
 }
