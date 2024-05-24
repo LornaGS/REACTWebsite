@@ -11,10 +11,10 @@ export default function Navbar() {
       <div className="nav-bar" wordspacing="30px">
 
       <ul>
-        <li><Link to="/">Home </Link></li>
-        <li> <Link to="/Shop">Shop</Link></li>
+        <li><Link style={{textDecoration: 'none'}} to="/">Home </Link></li>
+        <li> <Link style={{textDecoration: 'none'}} to="/Shop">Shop</Link></li>
 
-
+        
      </ul>
         
        
