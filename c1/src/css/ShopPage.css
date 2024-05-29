@@ -1,0 +1,14 @@
+.header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .items-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 750px;
+    gap: 2rem;
+    margin: auto;
+
+  }

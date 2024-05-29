@@ -1,0 +1,20 @@
+
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width: 20px;
+    right: 0;
+    float: right;
+    background-color: rgb(86, 116, 78);
+    padding: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px;
+  }
+  

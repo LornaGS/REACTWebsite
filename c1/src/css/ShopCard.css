@@ -1,0 +1,35 @@
+.wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0.5rem;
+    
+ 
+    }
+    
+    .name {
+      font-weight: 600;
+      text-align: center;
+      overflow-wrap: break-word;
+      color:rgb(86, 116, 78);
+      font-size: 5px;
+
+    }
+    
+    .price {
+      margin-bottom: 0.5rem;
+      font-size: 5px;
+    }
+    
+    .wrapper img {
+      margin-bottom: 0.5rem;
+      border-radius: 3px;
+    }
+  
+    .add-cart-button{
+      background-color:rgb(86, 116, 78);
+      color: white;
+    }
+  
+    .add-cart-button:hover{
+      background-color: lightgreen;
+    }
